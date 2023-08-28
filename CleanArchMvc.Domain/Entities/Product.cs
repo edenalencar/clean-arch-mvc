@@ -33,9 +33,9 @@ namespace CleanArchMvc.Domain.Entities
             DomainExceptionValidation.When(name.Length < 3, "Nome curto, é necessário no minimo 3 caracteres");
             DomainExceptionValidation.When(string.IsNullOrEmpty(description), "Nome inválido. Nome é obrigatório");
             DomainExceptionValidation.When(description.Length < 5, "Nome curto, é necessário no minimo 3 caracteres");
-            DomainExceptionValidation.When(price < 0, "Nome curto, é necessário no minimo 3 caracteres");
+            DomainExceptionValidation.When(price < 0, "Preço não pode ser negativo");
             DomainExceptionValidation.When(stock < 0, "Nome curto, é necessário no minimo 3 caracteres");
-            DomainExceptionValidation.When(image.Length > 250, "Nome inválido para imagem, maximo 250 caracteres");
+            DomainExceptionValidation.When(image?.Length > 250, "Nome inválido para imagem, maximo 250 caracteres");
 
             Name = name;
             Description = description;

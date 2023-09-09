@@ -39,6 +39,7 @@ namespace CleanArchMvc.Application.DTOs
         public string? Image { get; set; }
 
         [JsonIgnore]
+        [DisplayName("Categoria")]
         public Category? Category { get; set; }
 
         [DisplayName("Categorias")]

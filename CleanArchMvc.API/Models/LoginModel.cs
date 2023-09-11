@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CleanArchMvc.WebUI.ViewModels
+namespace CleanArchMvc.API.Models
 {
-    public class LoginViewModel
+    public class LoginModel
     {
         [Required(ErrorMessage = "O e-mail é obrigatório")]
         [EmailAddress(ErrorMessage = "E-mail de formato inválido")]
@@ -14,6 +14,5 @@ namespace CleanArchMvc.WebUI.ViewModels
         [DataType(DataType.Password)]
         [Display(Name = "Senha")]
         public string Password { get; set; }
-        public string ReturnUrl { get; set; }
     }
 }

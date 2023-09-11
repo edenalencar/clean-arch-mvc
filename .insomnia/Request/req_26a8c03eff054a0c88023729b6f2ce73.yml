@@ -1,0 +1,30 @@
+_id: req_26a8c03eff054a0c88023729b6f2ce73
+type: Request
+parentId: wrk_936fc576634844ccaca2c9c019c6da05
+modified: 1694438484132
+created: 1694438051886
+url: http://localhost:5298/api/Categories
+name: Criar categoria
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "name": "Nova categoria"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694438051886
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

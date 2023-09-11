@@ -1,0 +1,23 @@
+_id: req_1607a5db2f9243afa5af111b2b46dfbc
+type: Request
+parentId: wrk_936fc576634844ccaca2c9c019c6da05
+modified: 1694438466895
+created: 1694437845788
+url: http://localhost:5298/api/Categories
+name: Listar todas categorias
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1694437845788
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

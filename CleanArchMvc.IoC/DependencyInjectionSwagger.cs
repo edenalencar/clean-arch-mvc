@@ -9,8 +9,6 @@ namespace CleanArchMvc.Infra.IoC
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CleanArchMvc.API", Version = "v1" });
-
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
                     //definir configuracoes

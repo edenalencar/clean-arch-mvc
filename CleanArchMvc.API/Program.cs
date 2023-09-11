@@ -13,12 +13,11 @@ builder.Services.AddInfrastructureSwagger();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v2", new OpenApiInfo
+    options.SwaggerDoc("v1", new OpenApiInfo
     {
-        Version = "v2",
+        Version = "v1",
         Title = "CleanArchMvc API",
         Description = "Projeto API",
         TermsOfService = new Uri("https://github.com/edenalencar/clean-arch-mvc/termoservico"),
@@ -35,8 +34,8 @@ builder.Services.AddSwaggerGen(options =>
     });
 
     // usando System.Reflection;
-    //var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    //options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+    var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
 
 

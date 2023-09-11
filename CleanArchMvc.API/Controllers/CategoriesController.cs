@@ -1,6 +1,10 @@
 ﻿using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
+using CleanArchMvc.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
+using System.ComponentModel;
+using System.Net;
 
 namespace CleanArchMvc.API.Controllers
 {
@@ -15,7 +19,8 @@ namespace CleanArchMvc.API.Controllers
             _categoryService = categoryService;
         }
 
-        [HttpGet]
+      
+        [HttpGet]        
         public async Task<ActionResult<IEnumerable<CategoryDTO>>> Get()
         {
             var categories = await _categoryService.GetCategories();

@@ -1,0 +1,31 @@
+_id: req_5e645cc8000b4e7c94b0a6cff3293c98
+type: Request
+parentId: wrk_936fc576634844ccaca2c9c019c6da05
+modified: 1694438652734
+created: 1694438417492
+url: http://localhost:5298/api/Categories?id=7
+name: Atualizar categorria
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":7,
+    	"name":"Categoria atualizada"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694438417492
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

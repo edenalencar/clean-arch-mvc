@@ -1,0 +1,23 @@
+_id: req_9e22a76e531d441b982270652859eee3
+type: Request
+parentId: wrk_936fc576634844ccaca2c9c019c6da05
+modified: 1694438764624
+created: 1694438487079
+url: http://localhost:5298/api/Categories/7
+name: Excluir categoria
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694438487079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

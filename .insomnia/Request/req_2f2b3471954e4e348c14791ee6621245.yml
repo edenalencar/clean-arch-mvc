@@ -1,0 +1,23 @@
+_id: req_2f2b3471954e4e348c14791ee6621245
+type: Request
+parentId: wrk_936fc576634844ccaca2c9c019c6da05
+modified: 1694438784018
+created: 1694438685016
+url: http://localhost:5298/api/Categories/7
+name: Obter categoria
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1693593694102.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -21,7 +21,7 @@ builder.Services.AddSwaggerGen(options =>
         Version = "v2",
         Title = "CleanArchMvc API",
         Description = "Projeto API",
-        TermsOfService = new Uri("https://examplp.com/termoservico"),
+        TermsOfService = new Uri("https://github.com/edenalencar/clean-arch-mvc/termoservico"),
         Contact = new OpenApiContact
         {
             Name = "Contato",
@@ -30,7 +30,7 @@ builder.Services.AddSwaggerGen(options =>
         License = new OpenApiLicense
         {
             Name = "Licença",
-            Url = new Uri("https://examplo.com/licenca")
+            Url = new Uri("https://github.com/edenalencar/clean-arch-mvc/blob/master/LICENSE.txt")
         }
     });
 

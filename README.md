@@ -1,3 +1,5 @@
+[![.NET](https://github.com/edenalencar/clean-arch-mvc/actions/workflows/dotnet.yml/badge.svg)](https://github.com/edenalencar/clean-arch-mvc/actions/workflows/dotnet.yml)
+
 # clean-arch-mvc
 Projetos .NET implementando conceitos do Clean Architecture.
 
